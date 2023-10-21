@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.yüz{
+    border: 4px solid black;
+    border-radius:180px 180px 220px 220px ;
+    width: 400px;
+    height:500px;
+    position: absolute;
+    top: 200px;
+    left: 700px;  
+}
+.Göz{
+display: flex;
+margin: 350px 350px;
+padding-left: 450px;
+
+}
+.gözbir{
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(white 10px, black 20px);
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.göziki{
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(white 10px, black 20px);
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.burun_ağız{
+    position: relative;
+}
+.burun{
+    display:flex;
+    width: 50px; 
+    height: 100px;
+    background-image: radial-gradient( white 10px ,black ,gray);
+    border-radius: 50%;
+    padding-left: 40px;
+    margin: 80px 880px;
+    position: absolute;
+    top: 350px;
+}
+.ağız{
+    width: 200px; 
+   height: 100px; 
+   background-image: radial-gradient( white 10px ,black ,gray);  
+    -moz-border-radius: 50%; 
+   -webkit-border-radius: 50%; 
+   border-radius: 50%;
+   padding-left: 40px;
+   margin: 100px 810px;
+   position: absolute;
+   top: 450px;
+}
+.kulakbir{
+    width: 0;
+   height: 0;
+   border-right: 100px solid black;
+   border-top: 90px solid transparent;
+   border-bottom: 50px solid transparent;
+   padding-left: 40px;
+   margin: 90px 560px;
+   position: absolute;
+   top: 260px;
+   
+  
+}
+.kulakiki{
+   width: 0;
+   height: 0;
+   border-left: 100px solid black;
+   border-top: 90px solid transparent;
+   border-bottom: 50px solid transparent;
+   margin: 90px 1100px;
+   position: absolute;
+   top: 260px;
+}
+
+.gözlük{
+display:flex;
+margin: 50px 340px;
+padding-left: 450px;
+position: absolute;
+top: 290px;
+}
+.gözlükbir{
+    border: 5px solid blue;
+    width: 100px; 
+    height: 100px;
+}
+.gözlükiki{
+    border: 5px solid blue;
+    margin-left: 30px;
+    width: 100px; 
+    height: 100px;
+}
